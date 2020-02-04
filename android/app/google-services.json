@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "950682197386",
+    "firebase_url": "https://jalaseem.firebaseio.com",
+    "project_id": "jalaseem",
+    "storage_bucket": "jalaseem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950682197386:android:1732af3aaf95c3dd847c73",
+        "android_client_info": {
+          "package_name": "com.example.notting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950682197386-17l69jcv8hfavr5j5rfh2s7tkm470q8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA61xWeTiEnZphcWls62dXStIwpABW12gY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950682197386-17l69jcv8hfavr5j5rfh2s7tkm470q8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

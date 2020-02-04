@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:notting/models/user.dart';
+import 'package:notting/screens/wrapper.dart';
+import 'package:notting/services/auth.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(MainApp());
+void main() => runApp(MyApp());
 
-class MainApp extends StatefulWidget {
-  @override
-  _MainAppState createState() => _MainAppState();
-}
-
-class _MainAppState extends State<MainApp> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return StreamProvider<User>.value(
+      value: AuthService().user,
+      child: MaterialApp(
+        home: Wrapper(),
+        debugShowCheckedModeBanner: false,
+      ),
     );
   }
 }
